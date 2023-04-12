@@ -138,4 +138,11 @@ void main(){
     
     printf("Resultado:\n");
     imprime_valores(C, nl_A, nc_B);
+    
+    free(C[0]);
+    free(C);
+    free(B[0]);
+    free(B);
+    free(A[0]);
+    free(A);
 }
